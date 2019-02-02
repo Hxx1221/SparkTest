@@ -11,7 +11,7 @@ object SQLDemo1 {
 
   def main(args: Array[String]): Unit = {
 
-    //提交的这个程序可以连接到Spark集群中
+    //提交的这个程序可以连接到Spark集群中k
     val conf = new SparkConf().setAppName("SQLDemo1").setMaster("local[2]")
 
     //创建SparkSQL的连接（程序执行的入口）
